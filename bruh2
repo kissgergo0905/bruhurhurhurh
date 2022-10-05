@@ -1,1 +1,20 @@
+#1. feladat A része
+
 SELECT AVG(list_price) FROM products WHERE id < 4;
+
+#1. feladat B része
+SELECT * FROM products WHERE list_price < 30;
+
+#1. feladat C része
+SELECT * FROM products WHERE category = 'Sauces'
+
+#2. feladat A része
+SELECT SUM(standard_cost) FROM products
+
+#2. feladat B része
+SELECT * FROM products WHERE list_price > 20 AND list_price < 50;
+
+2. feladat C része
+SELECT * FROM products WHERE category != 'Sauces'
+
+3. feladat A része
